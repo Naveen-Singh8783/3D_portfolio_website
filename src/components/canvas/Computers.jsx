@@ -47,6 +47,7 @@ const ComputersCanvas = () => {
           />
           <Computers />
         </Suspense>
+        <Preload all />
       </Canvas>
     )
 }
