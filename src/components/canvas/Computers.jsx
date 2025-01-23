@@ -4,6 +4,7 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import { extend } from '@react-three/fiber'
 extend({ OrbitControls })
 
+
 import CanvasLoader from "../Loader";
 
 const Computers = () => {
