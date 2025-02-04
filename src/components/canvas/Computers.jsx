@@ -10,6 +10,7 @@ import CanvasLoader from "../Loader";
 const Computers = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
+    console.log(computer),
     <mesh>
       <hemisphereLight intensity={0.15}
       groundColor="black" />
