@@ -13,6 +13,13 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>OverView.</h2>
       </motion.div>
+      <motion.p
+        variants={fadeIn("","",0.1,1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-30px "
+      >
+        I'm a skilled software developer with a 4 years of coperate experience in field of Full stack and automation testing.
+        I'm a quick learner currently doing my master in from Dublin city university in field of AI.
+      </motion.p>
     </>
   )
 }
