@@ -6,6 +6,12 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
+const ServiceCard = ({index, title, icon}) => {
+  return (
+    <p>{title}</p>
+  )
+}
+
 const About = () => {
   return (
     <>
@@ -20,6 +26,13 @@ const About = () => {
         I'm a skilled software developer with a 4 years of coperate experience in field of Full stack and automation testing.
         I'm a quick learner currently doing my master in from Dublin city university in field of AI.
       </motion.p>
+
+      <div className="mt-20 flex flex-wrap gap-10">
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+
+      </div>
     </>
   )
 }
