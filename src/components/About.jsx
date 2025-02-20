@@ -33,13 +33,13 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className={styles.paddingX}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>OverView.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("","",0.1,1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-30px "
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-30px sm:px-16 px-6 sm:py-16 py-10"
       >
         I'm a skilled software developer with a 4 years of coperate experience in field of Full stack and automation testing.
         I'm a quick learner currently doing my master in from Dublin city university in field of AI.
