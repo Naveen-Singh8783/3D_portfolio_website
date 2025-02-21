@@ -39,13 +39,13 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("","",0.1,1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-30px sm:px-16 px-6 sm:py-16 py-10"
+        className="mt-4 text-secondary text-[17px] max-w-8xl leading-30px sm:px-16 px-6"
       >
         I'm a skilled software developer with a 4 years of coperate experience in field of Full stack and automation testing.
         I'm a quick learner currently doing my master in from Dublin city university in field of AI.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 sm:px-16 px-6">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
