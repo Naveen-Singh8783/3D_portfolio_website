@@ -24,6 +24,7 @@ const ServiceCard = ({index, title, icon}) => {
         <img src={icon} alt={title} 
         className="w-16 h-16 object-contain"
         />
+        <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
       </div> 
       </motion.div>
     </Tilt>
@@ -33,19 +34,19 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className={styles.paddingX}>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>OverView.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("","",0.1,1)}
-        className="mt-4 text-secondary text-[17px] max-w-8xl leading-30px sm:px-16 px-6"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-30px"
       >
         I'm a skilled software developer with a 4 years of coperate experience in field of Full stack and automation testing.
         I'm a quick learner currently doing my master in from Dublin city university in field of AI.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10 sm:px-16 px-6">
+      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
