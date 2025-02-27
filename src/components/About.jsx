@@ -6,6 +6,8 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
+import { SectionWrapper } from '../hoc';
+
 const ServiceCard = ({index, title, icon}) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -43,7 +45,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-30px"
       >
         I'm a skilled software developer with a 4 years of coperate experience in field of Full stack and automation testing.
-        I'm a quick learner currently doing my master in from Dublin city university in field of AI.
+        I'm a quick learner currently doing MSc in Computing( major Artificial Intelligence ) from Dublin city university in field of AI.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -56,4 +58,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about")
