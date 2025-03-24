@@ -15,10 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    priority,
+    eClerx,
     carrent,
     jobit,
     tripguide,
@@ -46,7 +44,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "CMS Developer",
       icon: mobile,
     },
     {
@@ -54,7 +52,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Automation Tester",
       icon: creator,
     },
   ];
@@ -118,7 +116,7 @@ import {
     {
       title: "Javascript developer",
       company_name: "Priority",
-      icon: starbucks,
+      icon: priority,
       iconBg: "#383E56",
       date: "June 2023 - Aug 2024",
       points: [
@@ -131,7 +129,7 @@ import {
     {
       title: "Web Developer",
       company_name: "eClerx",
-      icon: tesla,
+      icon: eClerx,
       iconBg: "#E6DEDD",
       date: "July 2021 - June 2023",
       points: [
@@ -144,8 +142,8 @@ import {
     {
       title: "SDE Intern",
       company_name: "eClerx",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: eClerx,
+      iconBg: "#E6DEDD",
       date: "Sep 2020 - July 2021",
       points: [
         "Perform pre and post live audit on client’s website to ensure the 100% quality.",
