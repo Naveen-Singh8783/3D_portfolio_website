@@ -184,20 +184,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Multi-API Translation and Comparison Tool",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a tool integrating Google Translate, MyMemory API, and OpenAI GPT for multilingual translation and comparison. Features include language selection, API evaluation, and fallback logic for reliable results.",
       tags: [
         {
-          name: "react",
+          name: "API Integration",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Javascript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "HTML/CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -205,20 +205,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Car PathFinding Simulation",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed a web-based simulation showcasing cars navigating a grid-based map using pathfinding algorithms. Features include dynamic grid resizing, obstacle avoidance, and turn-based car movements with visually distinct assets.",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "P5.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "HTML/CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -228,19 +228,15 @@ import {
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "It's a front-end of a travel booking website. The front-end contain some of the advance css designs and animations.",
       tags: [
         {
-          name: "nextjs",
+          name: "SCSS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "HTML",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
         },
       ],
       image: tripguide,
