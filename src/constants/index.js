@@ -21,6 +21,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    carPathFinding,
+    MultiApiTranslation,
   } from "../assets";
   
   export const navLinks = [
@@ -201,7 +203,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: MultiApiTranslation,
       source_code_link: "https://github.com/",
     },
     {
@@ -222,7 +224,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: carPathFinding,
       source_code_link: "https://github.com/",
     },
     {

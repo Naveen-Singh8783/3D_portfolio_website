@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
 import priority from "./company/priority.png";
 import eClerx from "./company/eClerx.png"
@@ -27,6 +27,8 @@ import eClerx from "./company/eClerx.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import carPathFinding from "./carPathFinding.png";
+import MultiApiTranslation from "./MultiAPITranslation.png";
 
 export {
   logo,
@@ -55,4 +57,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  carPathFinding,
+  MultiApiTranslation,
 };
