@@ -44,8 +44,8 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-30px"
       >
-        I'm a skilled software developer with a 4 years of coperate experience in field of Full stack and automation testing.
-        I'm a quick learner currently doing MSc in Computing( major Artificial Intelligence ) from Dublin city university in field of AI.
+        I’m a skilled software developer with 4 years of corporate experience in the field of full-stack development and automation testing.
+I’m a quick learner, currently pursuing an MSc in Computing (majoring in Artificial Intelligence) at Dublin City University.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
