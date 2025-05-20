@@ -26,7 +26,7 @@ import eClerx from "./company/eClerx.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import tripguide from "./wonderMap.png";
 import carPathFinding from "./carPathFinding.png";
 import MultiApiTranslation from "./MultiAPITranslation.png";
 
