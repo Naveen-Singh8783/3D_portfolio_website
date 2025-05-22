@@ -19,7 +19,7 @@ import {
     eClerx,
     carrent,
     jobit,
-    tripguide,
+    wonderMap,
     threejs,
     carPathFinding,
     MultiApiTranslation,
@@ -228,9 +228,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "wonderMap",
       description:
-        "It's a front-end of a travel booking website. The front-end contain some of the advance css designs and animations.",
+        "WonderMap is a country-themed image search engine built with Java and Spark. It scrapes Wikipedia, enriches images using OpenCV and YOLO, and ranks results with a custom BM25 model. Deployed on Render with Docker, WonderMap showcases a full-stack approach combining information retrieval and computer vision.",
       tags: [
         {
           name: "SCSS",
@@ -241,7 +241,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: tripguide,
+      image: wonderMap,
       source_code_link: "https://github.com/",
     },
   ];
