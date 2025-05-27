@@ -14,6 +14,7 @@ import {
     mongodb,
     git,
     figma,
+    java,
     docker,
     priority,
     eClerx,
@@ -105,8 +106,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "java",
+      icon: java,
     },
     {
       name: "docker",
