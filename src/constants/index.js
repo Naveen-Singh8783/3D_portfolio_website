@@ -205,7 +205,7 @@ import {
         },
       ],
       image: MultiApiTranslation,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Naveen-Singh8783/Multi-API_transalation_and_comparison",
     },
     {
       name: "Car PathFinding Simulation",
@@ -226,7 +226,7 @@ import {
         },
       ],
       image: carPathFinding,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Naveen-Singh8783/carPathFindingSimulation",
     },
     {
       name: "wonderMap",
@@ -243,7 +243,7 @@ import {
         },
       ],
       image: wonderMap,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Naveen-Singh8783/wondermap",
     },
   ];
   
