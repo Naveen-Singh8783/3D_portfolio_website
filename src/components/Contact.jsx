@@ -72,6 +72,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>Please mention your contact details in message.</p>
 
         <form
           ref={formRef}
